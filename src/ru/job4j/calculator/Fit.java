@@ -20,8 +20,8 @@ public class Fit {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your height in cm: " );
         short nextShort = scanner.nextShort();
-        double manWeight = Fit.manWeight(nextShort);
-        double womanWeight = Fit.womanWeight(nextShort);
+        double manWeight = (int)Fit.manWeight(nextShort);
+        double womanWeight = (int)Fit.womanWeight(nextShort);
         System.out.println("For Man " + nextShort + " is: " + manWeight + " kg");
         System.out.println("For Woman " + nextShort + " is: " + womanWeight + " kg");
     }
