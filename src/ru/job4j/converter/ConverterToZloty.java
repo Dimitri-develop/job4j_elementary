@@ -8,23 +8,24 @@ public class ConverterToZloty {
     }
 
     public static double zlotyToEuro(double value) {
-        double rsl = value * 0.22;//zloty v €
+        //zloty v €
+        double rsl = value * 0.22;
         return rsl;
     }
 
     public static double zlotyToDollar(double value) {
-        double rsl = value * 0.26;//zloty v $
+        //zloty v $
+        double rsl = value * 0.26;
         return rsl;
     }
 
     public static double zlotyToRub(double value) {
-        double rsl = value * 19.25;// zloty v ₽
+        // zloty v ₽
+        double rsl = value * 19.25;
         return rsl;
     }
 
-
     public static void main(String[] args) {
-
         double zlotyToHryvna = ConverterToZloty.zlotyToHryvna(100);
         double zlotyToEuro = ConverterToZloty.zlotyToEuro(1000);
         double zlotyToDollar = ConverterToZloty.zlotyToDollar(1000);
@@ -33,7 +34,7 @@ public class ConverterToZloty {
         + "1000 zloty are " + zlotyToEuro + " euros" + '\n'
                 + "1000 zloty are " + zlotyToDollar + " dollars" + '\n'
                 +"100 zloty are " + zlotyToRub + " rubles");*/
-        System.out.print("100 zloty are ₴ " );
+        System.out.print("100 zloty are ₴ ");
         System.out.printf("%.2f", zlotyToHryvna);
         System.out.println();
         System.out.print("1000 zloty are € ");

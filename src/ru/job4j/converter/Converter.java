@@ -14,10 +14,10 @@ public class Converter {
         return rsl;
     }
 
-
     public static void main(String[] args) {
         Scanner str = new Scanner(System.in);
-        System.out.print("Please, enter the value in rubles: ");//enter the value, which want to Convert
+        System.out.print("Please, enter the value in rubles: ");
+        //enter the value, which want to Convert
         float v = str.nextFloat();
         float rubToEuro = (float) Math.floor(Converter.rubToEuro(v));
         float rubToDollar = Math.round(Converter.rubToDollar(v));
