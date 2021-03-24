@@ -13,9 +13,9 @@ public class X2 {
         int a = 10;
         int b = 0;
         int c = 0;
-        int x = 1;
+        int x = 2;
         /*Ожидаемое значение. */
-        int expected = 3;
+        int expected = 40;
         /*Результат вычисления. */
         int rsl = X2.calc(a, b, c, x);
         /*Сравнение полученного значения с ожидаемым. */
