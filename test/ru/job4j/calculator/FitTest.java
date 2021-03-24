@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 public class FitTest {
 
+    //in = 180, expected = 92
     @Test
     public void whenMan180Then92() {
         short in = 180;
@@ -15,6 +16,7 @@ public class FitTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    //in = 200, expected = 115
     @Test
     public void whenMan200Then115() {
         short in = 200;
@@ -23,6 +25,7 @@ public class FitTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    // in = 170, expected = 69
     @Test
     public void whenWoman170Then69() {
         short in = 170;
@@ -31,6 +34,7 @@ public class FitTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    //in = 150, expected = 46
     @Test
     public void whenWoman150Then46() {
         short in = 150;
