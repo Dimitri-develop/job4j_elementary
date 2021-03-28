@@ -9,6 +9,7 @@ public class ArgMethod {
         String name = "Dima Yamanko";
         int age = 31;
 
+
        // ArgMethod.hello();
         ArgMethod.hello(name, age);
 //        ArgMethod.hello(age, age);
