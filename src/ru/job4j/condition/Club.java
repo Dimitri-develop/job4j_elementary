@@ -9,6 +9,7 @@ public class Club {
             System.out.println("I can't.");
         }
     }
+
     public static void main(String[] args) {
         permission(true, true);
         permission(true, false);
