@@ -14,11 +14,11 @@ import org.junit.Test;
     }
 
     @Test
-    public void when220Exist() {
-        double ab = 2.0;
+    public void when200Exist() {
+        double ab = 0.0;
         double ac = 2.0;
         double bc = 0.0;
         boolean result = Triangle.exist(ab, ac, bc);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
